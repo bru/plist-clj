@@ -2,7 +2,6 @@
 
 Binary plist encoder/decoder for ClojureScript (Clojure support coming "soon").
 
-[![Test](https://github.com/bru/plist-clj/workflows/Test/badge.svg)](https://github.com/bru/plist-clj/actions)
 [![Clojars](https://img.shields.io/clojars/v/net.clojars.bru/plist-clj.svg)](https://clojars.org/net.clojars.bru/plist-clj)
 [![License](https://img.shields.io/badge/License-EPL%201.0-blue.svg)](LICENSE)
 
