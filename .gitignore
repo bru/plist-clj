@@ -1,0 +1,14 @@
+*.class
+*.jar
+*.log
+*~
+.cpcache/
+.lein-*
+.nrepl-port
+.shadow-cljs/
+node_modules/
+out/
+target/
+.DS_Store
+pom.xml
+pom.xml.asc

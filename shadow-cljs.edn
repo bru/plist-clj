@@ -1,0 +1,16 @@
+{:deps {:aliases [:dev]}
+ :builds
+ {:browser-test
+  {:target :browser-test
+   :test-dir "out/test"
+   :ns-regexp "plist\\.(core|boundary)-test$"
+   :devtools {:http-port 8023
+              :http-root "out/test"}}
+  :node-test
+  {:target :node-test
+   :output-to "out/node-test.js"
+   :autorun true}
+  :gen-fixtures
+  {:target :node-script
+   :output-to "out/gen-fixtures.js"
+   :main gen/main}}}

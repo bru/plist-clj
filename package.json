@@ -1,0 +1,23 @@
+{
+  "name": "plist-clj",
+  "version": "0.1.0",
+  "description": "Binary plist encoder/decoder for ClojureScript",
+  "scripts": {
+    "test:browser:compile": "shadow-cljs compile browser-test",
+    "test:browser:watch": "shadow-cljs watch browser-test",
+    "test:node": "shadow-cljs compile node-test",
+    "test:node:watch": "shadow-cljs watch node-test",
+    "test": "npm run test:node",
+    "gen-fixtures": "shadow-cljs compile gen-fixtures && node out/gen-fixtures.js"
+  },
+  "keywords": ["clojure", "clojurescript", "plist", "binary-plist", "serialization"],
+  "license": "EPL-1.0",
+  "author": "bru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bru/plist-clj.git"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.26.2"
+  }
+}
